@@ -45,7 +45,8 @@ I took this approach because:
 
 So, in short, it attempts to keep the status quo as it finds it when it wakes up.
 
-As for why this is a WinForms application and not a Windows Service... it's because it could not detect the audio sessions currently using the target speaker. It seems enumerating audio sessions is only avaialble for desktop apps ([see here](https://learn.microsoft.com/en-us/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator)).
+As for why this is a WinForms application and not a Windows Service... it's because I did try (hence the funny usage of the standard dependency injector, trying to just use previous code without much hassle) it could not detect the audio sessions currently using the target speaker. 
+It seems enumerating audio sessions is only avaialble for desktop apps ([see here](https://learn.microsoft.com/en-us/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator)).
 So I used [this example](https://www.codeproject.com/Articles/290013/Formless-System-Tray-Application) to create a desktop app container for this service.
 
 ## Why the name
