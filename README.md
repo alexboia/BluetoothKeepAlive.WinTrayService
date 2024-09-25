@@ -55,7 +55,7 @@ Well, initially I attempted to work with it as a bluetooth device using the `32f
 - I felt I had to jump through a lot of hoops to make it happen;
 - I realised I didn't actually need to work at that level, but only feed it something to keep it active.
 
-So I was left with only the audio code, but, since its purpose is what it is, the name stuch. 
+So I was left with only the audio code, but, since its purpose is what it is, the name stuck. 
 
 Also lazyness.
 
