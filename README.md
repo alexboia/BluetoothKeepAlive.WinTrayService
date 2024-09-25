@@ -1,6 +1,6 @@
 ﻿# Bluetooth Speaker Keepalive Utility
 
-The core problem that this small utiltiy Windows Service is meant to solve is to keep a bluetooth speaker from entering auto-standby mode.
+The core problem that this small utility service is meant to solve is to keep a bluetooth speaker from entering auto-standby mode.
 
 My problem was the same as the one described over [here](https://my.marshall.com/forum/question/2961/how-do-i-disable-acton-2%E2%80%99s-auto-standby-mode) (and driving me just as crazy): my ACTON III is entering stand-by mode automatically and, from what I understand, there's nothing that can be officially done about it:
 
